@@ -1,6 +1,6 @@
-# Data Preprocessing
+# Data Preprocessing Engineering
 
-Welcome to the **Data Preprocessing** repository! This repository contains tutorials and examples on data preprocessing techniques using Python. It covers various methods to clean, transform, and prepare data for machine learning and data analysis tasks.
+Welcome to the **Data Preprocessing Engineering** repository! This repository contains tutorials and examples on data preprocessing techniques using Python. It covers various methods to clean, transform, and prepare data for machine learning and data analysis tasks.
 
 ## 📋 Contents
 
@@ -54,13 +54,13 @@ To get started with data preprocessing, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Md-Emon-Hasan/Data_Preprocessing.git
+   git clone https://github.com/Md-Emon-Hasan/Data-Preprocessing-Engineering.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd Data_Preprocessing
+   cd Data-Preprocessing-Engineering
    ```
 
 3. **Install the required packages:**
@@ -140,7 +140,7 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE
 
 ## 📬 Contact
 
-- **Email:** [iconicemon01@gmail.com](mailto:iconicemon01@gmail.com)
+- **Email:** [emon.mlengineer@gmail.com](mailto:emon.mlengineer@gmail.com)
 - **WhatsApp:** [+8801834363533](https://wa.me/8801834363533)
 - **GitHub:** [Md-Emon-Hasan](https://github.com/Md-Emon-Hasan)
 - **LinkedIn:** [Md Emon Hasan](https://www.linkedin.com/in/md-emon-hasan)
