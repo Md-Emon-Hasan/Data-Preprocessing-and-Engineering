@@ -1,149 +1,90 @@
 # Data Preprocessing Engineering
 
-Welcome to the **Data Preprocessing Engineering** repository! This repository contains tutorials and examples on data preprocessing techniques using Python. It covers various methods to clean, transform, and prepare data for machine learning and data analysis tasks.
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Md-Emon-Hasan/Data-Preprocessing-Engineering)](https://github.com/Md-Emon-Hasan/Data-Preprocessing-Engineering/commits/master)
 
-## 📋 Contents
+A practical, notebook-based collection for exploring, cleaning, transforming, and preparing data for machine learning. Each numbered folder focuses on a specific preprocessing or exploratory data analysis workflow and includes supporting datasets where needed.
 
-- [Introduction](#introduction)
-- [Topics Covered](#topics-covered)
-- [Key Concepts](#key-concepts)
+## Contents
+
+- [What You Will Learn](#what-you-will-learn)
+- [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [Challenges Faced](#challenges-faced)
-- [Lessons Learned](#lessons-learned)
-- [Why I Created This Repository](#why-i-created-this-repository)
+- [How to Use](#how-to-use)
 - [License](#license)
 - [Contact](#contact)
 
----
+## What You Will Learn
 
-## 📖 Introduction
+- Exploratory data analysis with univariate, bivariate, and multivariate techniques
+- Automated data profiling with Pandas Profiling
+- Feature scaling and standardization
+- Ordinal, label, and one-hot encoding for categorical data
+- Column transformers and end-to-end machine learning pipelines
+- Feature engineering for mixed variables
+- Date and time feature handling
+- Simple, random-sample, KNN, and multivariate missing-data imputation
+- Missing-value indicators and practical preprocessing workflows
 
-Data preprocessing is a crucial step in the data science and machine learning pipeline. This repository aims to provide a comprehensive guide to various data preprocessing techniques to ensure the data is in the best possible shape for analysis and modeling.
+## Repository Structure
 
----
+The learning path is organized into 14 numbered modules:
 
-## 📘 Topics Covered
+1. EDA using univariate analysis
+2. EDA using bivariate and multivariate analysis
+3. Pandas Profiling
+4. Feature scaling and standardization
+5. Feature scaling
+6. Ordinal and label encoding
+7. One-hot encoding
+8. Column transformers
+9. Machine learning pipelines
+10. Mixed-variable feature engineering
+11. Date and time variables
+12. Missing categorical data
+13. Missing indicators and random-sample imputation
+14. KNN and multivariate imputation
 
-- Handling missing data
-- Data normalization and standardization
-- Encoding categorical variables
-- Feature scaling
-- Data transformation techniques
-- Outlier detection and handling
-- Data augmentation
+The repository includes Jupyter notebooks, CSV datasets, generated profiling reports, and serialized pipeline/model examples.
 
----
+## Getting Started
 
-## 🔑 Key Concepts
+Clone the repository:
 
-- **Handling missing data:** Techniques to handle missing values, including imputation and removal.
-- **Data normalization and standardization:** Methods to scale and normalize data to ensure consistent ranges.
-- **Encoding categorical variables:** Transforming categorical data into numerical format for analysis.
-- **Feature scaling:** Scaling features to a specific range to improve model performance.
-- **Data transformation techniques:** Applying transformations to make data more suitable for analysis.
-- **Outlier detection and handling:** Identifying and addressing outliers in the data.
-- **Data augmentation:** Techniques to artificially increase the size of the dataset.
+```bash
+git clone https://github.com/Md-Emon-Hasan/Data-Preprocessing-Engineering.git
+cd Data-Preprocessing-Engineering
+```
 
----
+Install the libraries used by the notebooks:
 
-## 🚀 Getting Started
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter ydata-profiling
+```
 
-To get started with data preprocessing, follow these steps:
+Launch Jupyter Notebook:
 
-1. **Clone the repository:**
+```bash
+jupyter notebook
+```
 
-   ```bash
-   git clone https://github.com/Md-Emon-Hasan/Data-Preprocessing-Engineering.git
-   ```
+Start with module `1` and continue through the numbered folders. Each folder contains its notebook and the dataset required for that example.
 
-2. **Navigate to the project directory:**
+## How to Use
 
-   ```bash
-   cd Data-Preprocessing-Engineering
-   ```
+1. Open a module folder.
+2. Launch the `.ipynb` notebook in Jupyter Notebook or VS Code.
+3. Run the cells in order and inspect the resulting transformations and visualizations.
+4. Experiment with the included datasets and adapt the preprocessing steps to your own projects.
 
-3. **Install the required packages:**
+## License
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 
-4. **Explore the examples and tutorials:**
-
-   - Browse through the directories to find examples and explanations for each topic.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can contribute to this repository:
-
-1. **Fork the repository.**
-2. **Create a new branch:**
-
-   ```bash
-   git checkout -b feature/new-feature
-   ```
-
-3. **Make your changes:**
-
-   - Add new examples, improve explanations, or fix errors.
-
-4. **Commit your changes:**
-
-   ```bash
-   git commit -am 'Add a new feature or update'
-   ```
-
-5. **Push to the branch:**
-
-   ```bash
-   git push origin feature/new-feature
-   ```
-
-6. **Submit a pull request.**
-
----
-
-## 🛠️ Challenges Faced
-
-Throughout the development of this repository, challenges were encountered, including:
-
-- Ensuring compatibility across different Python versions and libraries.
-- Finding optimal techniques for different types of data.
-- Balancing between simplicity and completeness in examples.
-
----
-
-## 📚 Lessons Learned
-
-Key lessons learned from developing this repository include:
-
-- Enhanced understanding of various data preprocessing techniques.
-- Improved ability to handle and transform data for better model performance.
-- Importance of clean and well-prepared data for successful data analysis.
-
----
-
-## 🌟 Why I Created This Repository
-
-I created this repository to provide a practical resource for data scientists and analysts looking to preprocess their data effectively. By covering essential techniques and providing hands-on examples, I aim to help others prepare their data for analysis and modeling.
-
----
-
-## 📜 License
-
-This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for more details.
-
----
-
-## 📬 Contact
+## Contact
 
 - **Email:** [emon.mlengineer@gmail.com](mailto:emon.mlengineer@gmail.com)
-- **WhatsApp:** [+8801834363533](https://wa.me/8801834363533)
 - **GitHub:** [Md-Emon-Hasan](https://github.com/Md-Emon-Hasan)
 - **LinkedIn:** [Md Emon Hasan](https://www.linkedin.com/in/md-emon-hasan)
-- **Facebook:** [Md Emon Hasan](https://www.facebook.com/mdemon.hasan2001/)
-
-Feel free to reach out for any questions, feedback, or collaboration opportunities!
